@@ -104,7 +104,7 @@ var PROJECTS = [
     lic:"Pending — environmental and operational licences under application with ZEMA. No final licences granted yet.",
     prod:"6,000 tpa of cobalt sulphate",
     conflictDetail:"There is in unkown community confilcts with this particular project; Project area includes villages and likely displacement; There are broader concerns about DRC cobalt supply chain including child labour and artisanal mining conditions.",
-    conflictLink:"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4802367",
+    conflictLink:"",
     web:"https://www.kobaloni.com/"
   },
   {
