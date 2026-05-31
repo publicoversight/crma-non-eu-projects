@@ -49,7 +49,7 @@ var PROJECTS = [
     eia:"Pending — public consultation required before construction. Graphite dust risk to glacial and marine environments. Processing in Norway under EU environmental standards.",
     lic:"Granted — 30-year exploitation licence signed 8 December 2025 by the Government of Greenland. Mining must commence by 31 December 2030. Impact Benefit Agreement and Mine and Closure Plan still required.",
     prod:"~80,000 t/yr graphite concentrate (400,000 t/yr ore processed); 22-year mine life",
-    conflictDetail:"Significant indigenous and decolonisation concerns. Greenlandic independence advocates and Inuit community members have publicly opposed mining. Fordham Political Review documented community opposition under 'We will stop the mine'.",
+    conflictDetail:"Significant indigenous and decolonisation concerns. Greenlandic independence advocates and Inuit community members have publicly opposed mining.",
     conflictLink:"https://fordhampoliticalreview.org/we-will-stop-the-mine-mining-decolonization-and-greenlandic-independence/",
     web:"https://greenrocplc.com/"
   },
@@ -103,7 +103,7 @@ var PROJECTS = [
     eia:"Pending — no public EIA completed. Environmental permit application submitted to Zambia Environmental Management Agency (ZEMA). Tailings storage facilities will be required.",
     lic:"Pending — environmental and operational licences under application with ZEMA. No final licences granted yet.",
     prod:"6,000 tpa of cobalt sulphate",
-    conflictDetail:"Community and labour rights concerns documented in academic literature regarding cobalt supply chains in the Zambia-DRC Copperbelt region. Broader concerns about DRC cobalt supply chain including child labour and artisanal mining conditions are linked to this project's feedstock sourcing.",
+    conflictDetail:"There is in unkown community confilcts with this particular project; Project area includes villages and likely displacement; There are broader concerns about DRC cobalt supply chain including child labour and artisanal mining conditions.",
     conflictLink:"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4802367",
     web:"https://www.kobaloni.com/"
   },
@@ -139,7 +139,7 @@ var PROJECTS = [
     eia:"Completed — emission permit granted by Ministry of Climate and Environment, 19 December 2016, including permission for submarine tailings disposal (STD) into Repparfjord. Up to 2 million tonnes of sea-tailing waste per year.",
     lic:"Granted — all primary permits in place: operating licence, extraction permit, environmental permit, zoning plan. All third-party appeals exhausted. Mining must commence by end of 2027.",
     prod:"19,000 tonnes per annum of copper and up to 2 million tonnes of sea-tailing waste",
-    conflictDetail:"Heavily and persistently contested by Sami reindeer herding communities. The planned submarine tailings disposal (STD) into Repparfjord threatens the fjord ecosystem and traditional fishing rights. Aurubis AG withdrew as offtake partner in 2021 citing sustainability concerns. VOICES NGO documented threats to Sami culture.",
+    conflictDetail:"Heavily and persistently contested by Sami reindeer herding communities. The planned submarine tailings disposal (STD) into Repparfjord threatens the fjord ecosystem and traditional fishing rights. Aurubis AG withdrew as offtake partner in 2021 citing sustainability concerns.",
     conflictLink:"https://www.voices-ngo.ch/en/publications/case-studies/planned-copper-mines-threaten-the-sami-culture/",
     web:"https://nussir.no/prosjektet/"
   },
