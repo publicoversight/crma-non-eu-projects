@@ -31,7 +31,7 @@ var PROJECTS = [
     eia:"Not required under ICPE framework — upgrade of existing permitted facility. Smelter emits significant ore particulates and SO2.",
     lic:"Partial — base operating licence in place under Province Sud ICPE framework. Amended ICPE permit for the third AEP line not yet confirmed. Completion targeted by 2028.",
     prod:"32,900 t ferronickel produced in 2024; nameplate capacity ~54,000 t/yr",
-    conflictDetail:"Community conflict status unknown. SLN is historically tied to the colonisation of New Caledonia and the Kanak people (founded 1880). Civil unrest severely disrupted operations in 2024.",
+    conflictDetail:"Community conflict status unknown. SLN is historically tied to the colonisation of New Caledonia and the Kanak people (founded 1880). Civil unrest severely disrupted operations in 2024, after the French Parliament adopted a bill changing the territory’s voting rules",
     conflictLink:"",
     web:"https://sln.eramet.com/sln/nos-engagements/le-projet-caledoni-de-la-sln/"
   },
