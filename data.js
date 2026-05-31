@@ -85,7 +85,7 @@ var PROJECTS = [
     eia:"Not approved — Serbia's Ministry of Environmental Protection issued EIA scope requirements in November 2024. Rio Tinto given 12 months to submit full EIA documentation. EIA not yet approved.",
     lic:"Cancelled — licences cancelled January 2022 after mass protests. Constitutional Court ruled cancellation unlawful. Spatial plan reinstated July 2024. Rio Tinto suspended the project in November 2025 and placed it into care and maintenance.",
     prod:"58,000 t/yr lithium carbonate equivalent (LCE) at full production; 40-year mine life",
-    conflictDetail:"Massive community opposition in Serbia. Thousands protested against the mine citing water and land contamination fears. Licences cancelled January 2022 following mass protests. Rio Tinto has a documented history of environmental scandals displacing communities in multiple countries.",
+    conflictDetail:"Massive community opposition in Serbia. Thousands protested against the mine citing water and land contamination fears. Rio Tinto suspended the project in November 2025; Rio Tinto has a documented history of environmental scandals displacing communities in multiple countries.",
     conflictLink:"https://www.business-humanrights.org/en/from-us/briefings/tmt-2021/you-cant-eat-lithium-community-consent-and-access-to-information-in-transition-mineral-mining-exploration-in-europe-and-north-america/",
     web:"https://www.riotinto.com/en/operations/europe-me/jadar"
   },
