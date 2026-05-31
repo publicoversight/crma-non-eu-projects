@@ -94,7 +94,7 @@ var PROJECTS = [
     status:"active", type:"Processing", country:"Zambia",
     lat:-15.4961583, lng:28.3846278,
     mat:"Cobalt", neon:"#2979ff", fill:"#1a56cc",
-    conflict:true,
+    conflict:false,
     promoter:"Kobaloni Energy Zambia Limited",
     linked:"Vision Blue Resources; Africa Finance Corporation (AFC)",
     notes:"Kobaloni Energy is developing the first large-scale, battery-grade cobalt sulphate refinery on the African continent.",
