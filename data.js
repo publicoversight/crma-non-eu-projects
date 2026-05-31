@@ -121,7 +121,7 @@ var PROJECTS = [
     eia:"Pending — ESIA completed by Resolve Consulting and submitted to Madagascar's Office National pour l'Environnement (ONE) for review. Open-cast mining near endemic biodiversity zones. Graphite dust risk to local agriculture and waterways.",
     lic:"Pending — Madagascar's new mining code (adopted late 2023) facilitates granting of development and production licences. BCMM approved licence conversion process. Environmental permit still pending ONE approval.",
     prod:"During the first three years an average of 35-45 ktpa; 50-60 ktpa of graphite after year 4",
-    conflictDetail:"Villagers near the proposed mine site have reported inadequate consultation, fear of land dispossession, and disruption to subsistence farming. Mongabay reporting (April 2023) documented community members asking what happens to us when the mine comes. No formal FPIC process documented publicly.",
+    conflictDetail:"Villagers near the proposed mine site have reported inadequate consultation, fear of land dispossession, and disruption to subsistence farming. No formal FPIC process documented publicly.",
     conflictLink:"https://news.mongabay.com/2023/04/madagascar-what-happens-to-villagers-when-a-graphite-mine-comes-knocking/",
     web:"https://eviongroup.com/maniry-project/"
   },
@@ -193,7 +193,7 @@ var PROJECTS = [
     eia:"Completed — ESHIA approved by Malawi Environmental Protection Agency (MEPA) in January 2023. Undertaken by Digby Wells Environmental Limited in compliance with IFC Performance Standards and the Malawi Environmental Management Act.",
     lic:"Pending — Malawi Ministry of Justice appointed a London-based international law firm to carry out a final review of the Mining Development Agreement (MDA). Mining licence and MDA approval still pending. The project holds Retention Licence RTL 0001/21.",
     prod:"Expected ~5,954 t/yr in mixed rare earth carbonate during first five years of full production",
-    conflictDetail:"Community conflict status unknown. No formal documented conflict. Community consultation was conducted as part of the ESHIA process. Business and Human Rights Resource Centre has flagged general challenges around local community realities for EU-designated strategic mineral projects.",
+    conflictDetail:"Community conflict status unknown. No formal documented conflict. Community consultation was conducted as part of the ESHIA process.",
     conflictLink:"https://www.business-humanrights.org/my/from-us/briefings/strategic-projects-for-whom-challenges-and-local-realities-of-the-european-unions-strategic-mineral-projects/",
     web:"https://mkango.ca/projects/songwe/"
   },
