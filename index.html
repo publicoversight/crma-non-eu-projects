@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>Non-European Critical Materials Strategic Projects</title>
+<title>Non-European Critical Material Strategic Projects</title>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <style>
@@ -221,13 +221,10 @@ header {
 @media (max-width: 900px) {
   .sidebar { width: min(290px, 85vw); }
   .detail { bottom: 12px; left: 12px; width: min(370px, calc(100vw - 24px)); }
-  .legend .lc:nth-child(n+12) { display: none; }
-  .legend .lc-sep:nth-child(n+11) { display: none; }
 }
 /* ── RESPONSIVE MOBILE ── */
 @media (max-width: 600px) {
   .site-title { display: none; }
-  .legend { display: none; }
   .search-wrap { width: 160px; }
   .hbg { display: flex; }
   .sidebar { width: 100%; }
@@ -270,25 +267,6 @@ header {
     </svg>
   </div>
   <div class="site-title">Non-European Critical Material Strategic Projects</div>
-
-  <!-- neon legend -->
-  <div class="legend">
-    <div class="lc"><div class="lc-dot" style="background:#00e5ff;box-shadow:0 0 5px #00e5ff"></div><span class="lc-txt">Graphite</span></div>
-    <div class="lc-sep"></div>
-    <div class="lc"><div class="lc-dot" style="background:#76ff03;box-shadow:0 0 5px #76ff03"></div><span class="lc-txt">Nickel</span></div>
-    <div class="lc-sep"></div>
-    <div class="lc"><div class="lc-dot" style="background:#2979ff;box-shadow:0 0 5px #2979ff"></div><span class="lc-txt">Cobalt</span></div>
-    <div class="lc-sep"></div>
-    <div class="lc"><div class="lc-dot" style="background:#d500f9;box-shadow:0 0 5px #d500f9"></div><span class="lc-txt">Lithium</span></div>
-    <div class="lc-sep"></div>
-    <div class="lc"><div class="lc-dot" style="background:#ff6d00;box-shadow:0 0 5px #ff6d00"></div><span class="lc-txt">Copper</span></div>
-    <div class="lc-sep"></div>
-    <div class="lc"><div class="lc-dot" style="background:#ff1744;box-shadow:0 0 5px #ff1744"></div><span class="lc-txt">Rare Earths</span></div>
-    <div class="lc-sep"></div>
-    <div class="lc"><div class="lc-dot" style="background:#ffab00;box-shadow:0 0 5px #ffab00"></div><span class="lc-txt">Tungsten</span></div>
-    <div class="lc-sep"></div>
-    <div class="lc"><div class="lc-conf-dot"></div><span class="lc-txt">Conflict</span></div>
-  </div>
 
   <!-- search -->
   <div class="search-wrap">
