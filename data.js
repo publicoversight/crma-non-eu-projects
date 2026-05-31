@@ -68,7 +68,6 @@ var PROJECTS = [
     lic:"Granted — fully permitted and construction-ready. Indigenous Impact and Benefit Agreement in place with Abitibiwinni First Nation. Construction decision anticipated 2025-2026.",
     prod:"Average 39,000 t/yr nickel in sulphide concentrate over 30-year mine life, ramping to 50,000 t/yr in Phase II; ~1,100 t/yr cobalt",
     conflictDetail:"Project will affect water and land of the Abitibiwinni First Nation near Lake Chicobi, although an Indigenous Impact and Benefit Agreement (IBA) has been reached. Concerns were raised about inadequate consultation during earlier permitting stages.",
-    conflictLink:"https://iaac-aeic.gc.ca/050/evaluations/document/120673?culture=en-CA",
     web:"https://www.kinterracapital.com/portfolio/nion-nickel-inc"
   },
   {
