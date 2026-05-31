@@ -241,9 +241,107 @@ header {
 @media (max-width: 380px) {
   .search-wrap { width: 130px; }
 }
+
+/* ── INTRO MODAL ── */
+.modal-overlay {
+  position: fixed; inset: 0; z-index: 2000;
+  background: rgba(44,31,14,0.72); backdrop-filter: blur(3px);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+}
+.modal-overlay.hidden { display: none; }
+.modal-box {
+  background: #fff; border-radius: 14px;
+  max-width: 520px; width: 100%;
+  box-shadow: 0 20px 60px rgba(44,31,14,0.35);
+  overflow: hidden;
+}
+.modal-top {
+  background: #2c1f0e; padding: 18px 20px 14px;
+  display: flex; align-items: flex-start; gap: 12px;
+}
+.modal-eu { width: 32px; height: 32px; min-width: 32px; background: #003399; border-radius: 5px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.modal-eu svg { width: 26px; height: 26px; }
+.modal-title { font-size: 13px; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; color: #f0e8d8; line-height: 1.3; }
+.modal-sub { font-size: 10px; font-weight: 400; color: rgba(240,232,216,0.6); margin-top: 3px; letter-spacing: 0.04em; }
+.modal-body { padding: 18px 20px 6px; }
+.modal-body p { font-size: 12px; line-height: 1.7; color: #5a4a38; margin-bottom: 12px; }
+.modal-body p strong { color: #2c1f0e; font-weight: 700; }
+.modal-pills-row { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
+.modal-pill { font-size: 9px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 8px; border-radius: 20px; color: #fff; }
+.modal-footer { padding: 0 20px 18px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.modal-source { font-size: 10px; color: #8a7d6b; line-height: 1.4; flex: 1; }
+.modal-source a { color: #5a7a3a; text-decoration: none; font-weight: 600; }
+.modal-source a:hover { text-decoration: underline; }
+.modal-btn {
+  background: #2c1f0e; color: #f0e8d8; border: none;
+  border-radius: 8px; padding: 9px 20px;
+  font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  cursor: pointer; white-space: nowrap; transition: background 0.15s; flex-shrink: 0;
+}
+.modal-btn:hover { background: #4a3520; }
+@media (max-width: 560px) {
+  .modal-box { border-radius: 12px; }
+  .modal-top { padding: 14px 16px 12px; }
+  .modal-body { padding: 14px 16px 4px; }
+  .modal-footer { padding: 0 16px 16px; }
+  .modal-title { font-size: 11px; }
+}
 </style>
 </head>
 <body>
+
+<!-- INTRO MODAL -->
+<div class="modal-overlay" id="introModal">
+  <div class="modal-box">
+    <div class="modal-top">
+      <div class="modal-eu">
+        <svg viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+          <g fill="#FFCC00">
+            <polygon points="13,2 13.55,3.7 15.3,3.7 13.9,4.75 14.45,6.45 13,5.4 11.55,6.45 12.1,4.75 10.7,3.7 12.45,3.7" transform="rotate(0,13,13)"/>
+            <polygon points="13,2 13.55,3.7 15.3,3.7 13.9,4.75 14.45,6.45 13,5.4 11.55,6.45 12.1,4.75 10.7,3.7 12.45,3.7" transform="rotate(30,13,13)"/>
+            <polygon points="13,2 13.55,3.7 15.3,3.7 13.9,4.75 14.45,6.45 13,5.4 11.55,6.45 12.1,4.75 10.7,3.7 12.45,3.7" transform="rotate(60,13,13)"/>
+            <polygon points="13,2 13.55,3.7 15.3,3.7 13.9,4.75 14.45,6.45 13,5.4 11.55,6.45 12.1,4.75 10.7,3.7 12.45,3.7" transform="rotate(90,13,13)"/>
+            <polygon points="13,2 13.55,3.7 15.3,3.7 13.9,4.75 14.45,6.45 13,5.4 11.55,6.45 12.1,4.75 10.7,3.7 12.45,3.7" transform="rotate(120,13,13)"/>
+            <polygon points="13,2 13.55,3.7 15.3,3.7 13.9,4.75 14.45,6.45 13,5.4 11.55,6.45 12.1,4.75 10.7,3.7 12.45,3.7" transform="rotate(150,13,13)"/>
+            <polygon points="13,2 13.55,3.7 15.3,3.7 13.9,4.75 14.45,6.45 13,5.4 11.55,6.45 12.1,4.75 10.7,3.7 12.45,3.7" transform="rotate(180,13,13)"/>
+            <polygon points="13,2 13.55,3.7 15.3,3.7 13.9,4.75 14.45,6.45 13,5.4 11.55,6.45 12.1,4.75 10.7,3.7 12.45,3.7" transform="rotate(210,13,13)"/>
+            <polygon points="13,2 13.55,3.7 15.3,3.7 13.9,4.75 14.45,6.45 13,5.4 11.55,6.45 12.1,4.75 10.7,3.7 12.45,3.7" transform="rotate(240,13,13)"/>
+            <polygon points="13,2 13.55,3.7 15.3,3.7 13.9,4.75 14.45,6.45 13,5.4 11.55,6.45 12.1,4.75 10.7,3.7 12.45,3.7" transform="rotate(270,13,13)"/>
+            <polygon points="13,2 13.55,3.7 15.3,3.7 13.9,4.75 14.45,6.45 13,5.4 11.55,6.45 12.1,4.75 10.7,3.7 12.45,3.7" transform="rotate(300,13,13)"/>
+            <polygon points="13,2 13.55,3.7 15.3,3.7 13.9,4.75 14.45,6.45 13,5.4 11.55,6.45 12.1,4.75 10.7,3.7 12.45,3.7" transform="rotate(330,13,13)"/>
+          </g>
+        </svg>
+      </div>
+      <div>
+        <div class="modal-title">Non-European Critical Material Strategic Projects</div>
+        <div class="modal-sub">Selected by the European Commission &mdash; 25 March 2025</div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <p>The EU's <strong>Critical Raw Materials Act (CRMA)</strong> designates strategic mining and processing projects worldwide to secure Europe's supply of minerals needed for the green and digital transition. This map tracks the <strong>13 projects located outside Europe</strong> from the first selection round.</p>
+      <p>Click any numbered marker on the map to explore a project. Each entry includes an overview of the promoter and linked companies, projected production, environmental assessment and licensing status, and any documented conflicts with local or indigenous communities.</p>
+      <p>Use the <strong>filter panel</strong> on the right to narrow by material or show only projects with community conflicts. The project status — <strong>active, halted, or cancelled</strong> — reflects whether the project is currently advancing.</p>
+      <div class="modal-pills-row">
+        <span class="modal-pill" style="background:#007a99">Graphite</span>
+        <span class="modal-pill" style="background:#3d8a00">Nickel &amp; Cobalt</span>
+        <span class="modal-pill" style="background:#8800b3">Lithium</span>
+        <span class="modal-pill" style="background:#b34d00">Copper</span>
+        <span class="modal-pill" style="background:#b30000">Rare Earths</span>
+        <span class="modal-pill" style="background:#997a00">Tungsten</span>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <div class="modal-source">
+        Data sourced from company disclosures, public regulatory filings, and news reporting. Built independently for public oversight purposes.<br>
+        <a href="https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/strategic-projects-under-crma/selected-projects_en" target="_blank">Official EC project list &#8599;</a>
+      </div>
+      <button class="modal-btn" id="modalClose">Explore the map</button>
+    </div>
+  </div>
+</div>
+
 
 <!-- HEADER -->
 <header>
@@ -336,6 +434,16 @@ header {
 <script src="data.js"></script>
 <script>
 (function () {
+
+
+  /* ── intro modal ── */
+  document.getElementById('modalClose').addEventListener('click', function () {
+    document.getElementById('introModal').classList.add('hidden');
+  });
+  /* also close if user clicks the dark overlay outside the box */
+  document.getElementById('introModal').addEventListener('click', function (e) {
+    if (e.target === this) this.classList.add('hidden');
+  });
 
   /* ── guard ── */
   if (typeof PROJECTS === 'undefined' || !PROJECTS.length) {
