@@ -3,6 +3,7 @@
 Interactive map of the 13 non-European strategic mining projects selected by the European Commission on 25 March 2025 under the [Critical Raw Materials Act (CRMA)](https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/strategic-projects-under-crma/selected-projects_en).
 
 Built amateurly so anyone can see the status, environmental, and community situation of each project at a glance.
+I used Ollama to help with coding and logic, checked and refined everything by hand.
 
 ## What this is
 
