@@ -96,7 +96,7 @@ var SL = {active:"Active", halted:"Halted", cancelled:"Cancelled"};
 
 ---
 
-## How the HTML file works (`index.html`)
+## index.html
 
 The file is self-contained except for loading `data.js`. It has three sections:
 
@@ -177,7 +177,7 @@ The ✕ on the sidebar adds `.hidden` class (CSS `transform: translateX(100%)` s
 
 ---
 
-## Dependencies (all loaded from CDN, no installation needed)
+## Dependencies (all loaded from CDN)
 
 | Library | Version | Purpose |
 |---|---|---|
@@ -186,6 +186,6 @@ The ✕ on the sidebar adds `.hidden` class (CSS `transform: translateX(100%)` s
 | ESRI World Imagery | — | Satellite tile layer |
 | CartoDB Light Labels | — | Country/city name overlay |
 
-No build tools, no npm, no framework. Open the files in any text editor to make changes.
+Open the files in any text editor to make changes.
 
 
