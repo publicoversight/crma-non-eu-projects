@@ -50,7 +50,7 @@ var PROJECTS = [
     lic:"Granted — 30-year exploitation licence signed 8 December 2025 by the Government of Greenland. Mining must commence by 31 December 2030. Impact Benefit Agreement and Mine and Closure Plan still required.",
     prod:"~80,000 t/yr graphite concentrate (400,000 t/yr ore processed); 22-year mine life",
     conflictDetail:"Significant indigenous and decolonisation concerns. Greenlandic independence advocates and Inuit community members have publicly opposed mining.",
-    conflictLink:"https://fordhampoliticalreview.org/we-will-stop-the-mine-mining-decolonization-and-greenlandic-independence/",
+    conflictLink:"",
     web:"https://greenrocplc.com/"
   },
   {
