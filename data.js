@@ -31,8 +31,8 @@ var PROJECTS = [
     eia:"Not required under ICPE framework — upgrade of existing permitted facility. Smelter emits significant ore particulates and SO2.",
     lic:"Partial — base operating licence in place under Province Sud ICPE framework. Amended ICPE permit for the third AEP line not yet confirmed. Completion targeted by 2028.",
     prod:"32,900 t ferronickel produced in 2024; nameplate capacity ~54,000 t/yr",
-    conflictDetail:"Community conflict status unknown. SLN is historically tied to the colonisation of New Caledonia and the Kanak people (founded 1880). Civil unrest severely disrupted operations in 2024, after the French Parliament adopted a bill changing the territory’s voting rules",
-    conflictLink:"",
+    conflictDetail:"Local community is fighting against the mine's activity. SLN is historically tied to the colonisation of New Caledonia and the Kanak people (founded 1880). Civil unrest severely disrupted operations in 2024, after the French Parliament adopted a bill changing the territory’s voting rules",
+    conflictLink:"https://reporterre.net/En-Nouvelle-Caledonie-de-jeunes-Kanaks-se-levent-contre-l-industrie-du-nickel",
     web:"https://sln.eramet.com/sln/nos-engagements/le-projet-caledoni-de-la-sln/"
   },
   {
@@ -192,8 +192,8 @@ var PROJECTS = [
     eia:"Completed — ESHIA approved by Malawi Environmental Protection Agency (MEPA) in January 2023. Undertaken by Digby Wells Environmental Limited in compliance with IFC Performance Standards and the Malawi Environmental Management Act.",
     lic:"Pending — Malawi Ministry of Justice appointed a London-based international law firm to carry out a final review of the Mining Development Agreement (MDA). Mining licence and MDA approval still pending. The project holds Retention Licence RTL 0001/21.",
     prod:"Expected ~5,954 t/yr in mixed rare earth carbonate during first five years of full production",
-    conflictDetail:"Community conflict status unknown. No formal documented conflict. Community consultation was conducted as part of the ESHIA process.",
-    conflictLink:"https://www.business-humanrights.org/my/from-us/briefings/strategic-projects-for-whom-challenges-and-local-realities-of-the-european-unions-strategic-mineral-projects/",
+    conflictDetail:"Lack of transparency and participation of local community in the Environmental, Social and Health Impact Assessment (ESHIA) report.",
+    conflictLink:"https://www.malawivoice.com/2026/07/16/communities-kept-in-dark-over-songwe-hill-mining-impact-report/",
     web:"https://mkango.ca/projects/songwe/"
   },
   {
